@@ -72,3 +72,7 @@ def process_image():
         return str('{"response": "no people found"}')
   else:
     return "no json received"
+
+
+if __name__ == "__main__":
+    app.run()
